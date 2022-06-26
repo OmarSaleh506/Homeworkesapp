@@ -1,13 +1,15 @@
 {
-	"name": "hw08",
-	"version": "1.0.0",
-	"main": "index.js",
-	"scripts": {
+  "name": "Homeworkesapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/OmarSaleh506/Homeworkesapp.git",
+  "author": "OmarSaleh506 <amory2000338@gmail.com>",
+  "license": "MIT",
+  "scripts": {
 		"dev": "nodemon -r dotenv/config src/index.ts | pino-colada",
 		"build": "rm -rf dist && tsc",
 		"start": "node dist/index.js"
 	},
-	"license": "ISC",
 	"dependencies": {
 		"@fastify/autoload": "^5.0.0",
 		"@fastify/sensible": "^5.0.0",
